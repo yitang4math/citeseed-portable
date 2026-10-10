@@ -1,0 +1,12 @@
+# citeseed 依赖清单
+# 安装：python -m pip install -r requirements.txt
+
+# 必需 —— 缺它整个 skill 不可用（PDF 文本抽取）
+pymupdf
+
+# 可选 —— 仅 scripts/citegraph.py（参考文献关系图谱）需要
+# 不需要图谱功能就不装：python -m pip install networkx
+networkx
+
+# 可选 —— citeparse.py 的部分辅助路径，缺了会自动降级
+# pandas

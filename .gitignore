@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 运行产物（autorun/batchrun/review 的输出）
+# 冒烟测试默认落在 scripts/smoke/，其他 <OUT> 目录请自行忽略或用绝对路径写到仓库外
+smoke/
+_regress_tmp/
+_out/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 打包产物（zip 由 make_archive 生成，不入版本库）
+*.zip
